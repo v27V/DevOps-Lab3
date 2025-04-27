@@ -1,0 +1,26 @@
+{"build_time":"20250422.204325","level":"info","msg":"Starting","time":"2025-04-27T15:00:42Z","version":"v17.11.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-04-27T15:00:42Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-04-27T15:00:42Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-04-27T15:00:42Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-04-27T15:00:42Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-04-27T15:00:42Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:00:42Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:00:52Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:01:02Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:01:12Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:01:22Z","uri":""}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JSVW99Y1YRPYNBZ4QYPCARZN","duration_ms":642,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":226,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-04-27T15:01:39Z","ttfb_ms":642,"uri":"/help","user_agent":"curl/8.13.0-DEV","written_bytes":27068}
+redis: 2025/04/27 15:01:43 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2025-04-27T15:01:43Z"}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2025-04-27T15:01:58Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2025-04-27T15:01:58Z"}
+{"error":null,"level":"fatal","msg":"shutting down","time":"2025-04-27T15:01:58Z"}
+{"build_time":"20250422.204325","level":"info","msg":"Starting","time":"2025-04-27T15:01:58Z","version":"v17.11.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-04-27T15:01:58Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-04-27T15:01:58Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-04-27T15:01:58Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-04-27T15:01:58Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-04-27T15:01:58Z"}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JSVWB59J51NXNG6NEBCVJWT8","duration_ms":652,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":226,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-04-27T15:02:40Z","ttfb_ms":652,"uri":"/help","user_agent":"curl/8.13.0-DEV","written_bytes":27068}
+redis: 2025/04/27 15:02:59 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2025-04-27T15:02:59Z"}

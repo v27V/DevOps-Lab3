@@ -1,0 +1,28 @@
+Send message {Progress, MessagePack, 4 bytes}
+Send message {IgnoredNodes, MessagePack, 241 bytes}
+Send message {NodeScanStatus, MessagePack, 74 bytes}
+Send message {NodeScanStatus, MessagePack, 73 bytes}
+Send message {NodeScanStatus, MessagePack, 68 bytes}
+Send message {NodeScanStatus, MessagePack, 69 bytes}
+Send message {Progress, MessagePack, 4 bytes}
+Send message {NodeScanStatus, MessagePack, 68 bytes}
+Send message {NodeScanStatus, MessagePack, 73 bytes}
+Send message {Progress, MessagePack, 4 bytes}
+Send message {NodeScanStatus, MessagePack, 73 bytes}
+Send message {NodeScanStatus, MessagePack, 77 bytes}
+Send message {Progress, MessagePack, 4 bytes}
+Send message {NodeScanStatus, MessagePack, 69 bytes}
+Send message {NodeScanStatus, MessagePack, 79 bytes}
+Send message {Progress, MessagePack, 4 bytes}
+Send message {NodeScanStatus, MessagePack, 77 bytes}
+Send message {Progress, MessagePack, 4 bytes}
+Send message {NodeScanStatus, MessagePack, 73 bytes}
+Send message {Progress, MessagePack, 4 bytes}
+Send message {NodeScanStatus, MessagePack, 74 bytes}
+Send message {Progress, MessagePack, 4 bytes}
+Send message {NodeScanStatus, MessagePack, 79 bytes}
+Send message {ScanDone, ByteArray, 0 bytes}
+Elapsed time of the 'Scan' stage: 00:00:04.8420573
+Send message {Progress, MessagePack, 4 bytes}
+Send message {FinalizeDone, ByteArray, 0 bytes}
+Elapsed time of the 'Finalize' stage: 00:00:00.0303497

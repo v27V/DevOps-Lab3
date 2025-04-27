@@ -1,0 +1,25 @@
+version: '3.8'   # версия docker-compose
+
+services:     # начало блока с сервисами, которые будут подняты с помощью этог docker-compose файда
+  gitlab:                               # начало блока с настройками для сервиса gitlab
+    image: gitlab/gitlab-ce:latest      # образ, на основе которого будет собираться сервис
+    container_name: gitlab              # имя контейнера
+    restart: always                     # в каком случае контейнер будет перезапускаться
+    ports:                              # в секции указываются настройки проброса портов, первое знаение порт на хосте, второе - порт внутри контейнера
+      - "1337:80"    # Для HTTP
+      - "1443:443"   # Для HTTPS
+      - "4444:22"     # SSH для git-пушей
+    volumes:                            # секция с настройкми монтируемых директорий с хостовой системой и контейнером
+      - ./data/config:/etc/gitlab       # первое значение - директория на хосте, второе в контейнере
+      - ./data/logs:/var/log/gitlab     # данные контейнера будут сохранятся на хосте и использоваться при новом создании контейнера
+      - ./data/data:/var/opt/gitlab     # предотвращает потерю данных между перезапусками контейнеров
+      - ./data/config/ssl:/etc/gitlab/ssl:ro
+    environment:                        # секция с настройками переменных окружения, необходимых для настройки сервиса
+      GITLAB_OMNIBUS_CONFIG: |          # переменные для OMNIBUS
+        external_url 'https://localhost:443'                    #задается порт, который будет слушать GitLab внутри контейнера
+        nginx['redirect_http_to_https'] = true                   # перенаправление запросов с HTTP на HTTPS
+        nginx['ssl_certificate'] = "/etc/gitlab/ssl/localhost.crt"        # созданный самоподписанный сертификат
+        nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/localhost.key"    # созданный вручную ключ шифрования
+networks:                                 
+  default:                                # инициализация изолированной виртуальной сети Докера типа "мост"
+    driver: bridge                        

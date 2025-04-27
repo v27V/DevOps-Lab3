@@ -1,0 +1,124 @@
+2025-04-14T10:18:38.163+10:00 ERROR @JavaScriptProcessor: Error "UnknownError"(null) was received with message:
+
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2 has no c:\Users\Влад\Desktop\Пары\DevOps\Lab2\package.json to restore JS packages.
+
+2025-04-14T10:21:23.040+10:00 ERROR @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+2025-04-14T10:21:23.115+10:00 ERROR Some nodes has invalid scan status:
+
+  ./cmd/server/main.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server\main.go
+    JavaScript
+  ./internal/api/handler.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\handler.go
+    JavaScript
+  ./internal/api/routes.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\routes.go
+    JavaScript
+  ./internal/api/static.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\static.go
+    JavaScript
+  ./internal/models/product.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models\product.go
+    JavaScript
+  ./internal/storage/database.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage\database.go
+    JavaScript
+  ./static/index.html
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static\index.html
+    JavaScript
+  ./go.mod
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\go.mod
+    JavaScript
+
+2025-04-14T10:25:48.243+10:00 ERROR @JavaScriptProcessor: Error "UnknownError"(null) was received with message:
+
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2 has no c:\Users\Влад\Desktop\Пары\DevOps\Lab2\package.json to restore JS packages.
+
+2025-04-14T10:25:59.029+10:00 ERROR @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+2025-04-14T10:25:59.092+10:00 ERROR Some nodes has invalid scan status:
+
+  ./cmd/server/main.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server\main.go
+    JavaScript
+  ./internal/api/handler.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\handler.go
+    JavaScript
+  ./internal/api/routes.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\routes.go
+    JavaScript
+  ./internal/api/static.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\static.go
+    JavaScript
+  ./internal/models/product.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models\product.go
+    JavaScript
+  ./internal/storage/database.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage\database.go
+    JavaScript
+  ./static/index.html
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static\index.html
+    JavaScript
+  ./go.mod
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\go.mod
+    JavaScript
+  ./Результаты сканирования PT Application Inspector.png
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\Результаты сканирования PT Application Inspector.png
+    JavaScript
+
+2025-04-14T10:27:34.030+10:00 ERROR @JavaScriptProcessor: Error "UnknownError"(null) was received with message:
+
+  npm ERR! code EJSONPARSE
+npm ERR! path c:\Users\Влад\Desktop\Пары\DevOps\Lab2/package.json
+npm ERR! JSON.parse Unexpected end of JSON input while parsing empty string
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in: c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Logs\Infrastructure\2025-04-14-20-18-20\JavaScript\npm_logs\2025-04-14T10_27_33_375Z-debug-0.log
+
+
+2025-04-14T10:27:43.097+10:00 ERROR @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+2025-04-14T10:27:43.139+10:00 ERROR Some nodes has invalid scan status:
+
+  ./cmd/server/main.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server\main.go
+    JavaScript
+  ./internal/api/handler.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\handler.go
+    JavaScript
+  ./internal/api/routes.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\routes.go
+    JavaScript
+  ./internal/api/static.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\static.go
+    JavaScript
+  ./internal/models/product.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models\product.go
+    JavaScript
+  ./internal/storage/database.go
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage\database.go
+    JavaScript
+  ./static/index.html
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static\index.html
+    JavaScript
+  ./go.mod
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\go.mod
+    JavaScript
+  ./package.json
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\package.json
+    JavaScript
+  ./Результаты сканирования PT Application Inspector.png
+  c:\Users\Влад\Desktop\Пары\DevOps\Lab2\Результаты сканирования PT Application Inspector.png
+    JavaScript
+

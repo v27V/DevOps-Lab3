@@ -1,0 +1,66 @@
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.8.0 (02/04/2025 13:50:22)
+OS:                            Microsoft Windows NT 10.0.26100.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2366064.42578125 / 142.26953125 MB, 64-bit
+
+Scan path or file:             c:\Users\Влад\Desktop\Пары\DevOps\Lab2
+Thread count:                  4
+Finish date:                   04/14/2025 20:21:21
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   7
+Lines/chars count:             929 / 33107
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.33%
+Tokens time ratio:             00.99%
+ParseTree time ratio:          70.71%
+Ust time ratio:                02.58%
+Match time ratio:              01.03%
+Pattern time ratio:            24.37%
+
+Time elapsed:                  00:06.456
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.8.0 (02/04/2025 13:50:22)
+OS:                            Microsoft Windows NT 10.0.26100.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2366069.7421875 / 140.0703125 MB, 64-bit
+
+Scan path or file:             c:\Users\Влад\Desktop\Пары\DevOps\Lab2
+Thread count:                  4
+Finish date:                   04/14/2025 20:25:56
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   7
+Lines/chars count:             929 / 33107
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.28%
+Tokens time ratio:             00.79%
+ParseTree time ratio:          79.05%
+Ust time ratio:                01.81%
+Match time ratio:              01.00%
+Pattern time ratio:            17.08%
+
+Time elapsed:                  00:08.292
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.8.0 (02/04/2025 13:50:22)
+OS:                            Microsoft Windows NT 10.0.26100.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2366068.2421875 / 135.77734375 MB, 64-bit
+
+Scan path or file:             c:\Users\Влад\Desktop\Пары\DevOps\Lab2
+Thread count:                  4
+Finish date:                   04/14/2025 20:27:42
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   7
+Lines/chars count:             929 / 33107
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.31%
+Tokens time ratio:             01.35%
+ParseTree time ratio:          77.42%
+Ust time ratio:                02.13%
+Match time ratio:              00.74%
+Pattern time ratio:            18.05%
+
+Time elapsed:                  00:09.587

@@ -1,0 +1,34 @@
+configFile: file: open config.toml: no such file or directory
+configFile: file: open config.toml: no such file or directory
+configFile: file: open config.toml: no such file or directory
+{"build_time":"20250422.204325","level":"info","msg":"Starting","time":"2025-04-27T09:44:36Z","version":"v17.11.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-04-27T09:44:36Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-04-27T09:44:36Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-04-27T09:44:36Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-04-27T09:44:36Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-04-27T09:44:36Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2025-04-27T09:44:36Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2025-04-27T09:44:46Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2025-04-27T09:44:56Z","uri":""}
+{"correlation_id":"01JSVA5FRW6AQEDDV3KPNMM8E9","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2025-04-27T09:44:59Z","uri":"/help"}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JSVA5FRW6AQEDDV3KPNMM8E9","duration_ms":1,"host":"localhost:10080","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":210,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":502,"system":"http","time":"2025-04-27T09:44:59Z","ttfb_ms":1,"uri":"/help","user_agent":"curl/8.13.0-DEV","written_bytes":2026}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2025-04-27T09:45:06Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2025-04-27T09:45:16Z","uri":""}
+redis: 2025/04/27 09:45:37 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2025-04-27T09:45:37Z"}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2025-04-27T09:45:55Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2025-04-27T09:45:55Z"}
+{"error":null,"level":"fatal","msg":"shutting down","time":"2025-04-27T09:45:55Z"}
+{"build_time":"20250422.204325","level":"info","msg":"Starting","time":"2025-04-27T09:45:55Z","version":"v17.11.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-04-27T09:45:55Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-04-27T09:45:55Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-04-27T09:45:55Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-04-27T09:45:55Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-04-27T09:45:55Z"}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JSVA7AET5VGRF026VQMTRE6B","duration_ms":775,"host":"localhost:10080","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":210,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-04-27T09:46:00Z","ttfb_ms":775,"uri":"/help","user_agent":"curl/8.13.0-DEV","written_bytes":27098}
+redis: 2025/04/27 09:46:56 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2025-04-27T09:46:56Z"}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JSVA95Z3XWRBTSTEK8Y87FTD","duration_ms":661,"host":"localhost:10080","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":210,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-04-27T09:47:01Z","ttfb_ms":661,"uri":"/help","user_agent":"curl/8.13.0-DEV","written_bytes":27098}
+{"backend_id":"rails","content_type":"application/json","correlation_id":"01JSVA9NRK9E3WZP7FVV6T94TX","duration_ms":54,"host":"localhost:10080","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":523,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"^/api/","route_id":"api","status":404,"system":"http","time":"2025-04-27T09:47:16Z","ttfb_ms":54,"uri":"/api/v4/internal/kubernetes/receptive_agents","user_agent":"gitlab-kas/v17.11.1/v17.11.1","written_bytes":25}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JSVAB1AMD9FNFZGDJ86VG2A5","duration_ms":648,"host":"localhost:10080","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":210,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-04-27T09:48:01Z","ttfb_ms":648,"uri":"/help","user_agent":"curl/8.13.0-DEV","written_bytes":27098}
+{"backend_id":"rails","content_type":"text/html; charset=utf-8","correlation_id":"01JSVACWN3B5CP2MQR485ZHMPK","duration_ms":124,"host":"localhost:10080","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":210,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-04-27T09:49:02Z","ttfb_ms":123,"uri":"/help","user_agent":"curl/8.13.0-DEV","written_bytes":27098}

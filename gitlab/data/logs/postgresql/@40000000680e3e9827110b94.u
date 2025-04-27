@@ -1,0 +1,17 @@
+2025-04-27_09:57:22.33283 LOG:  starting PostgreSQL 16.8 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-04-27_09:57:22.33487 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2025-04-27_09:57:22.34676 LOG:  database system was interrupted; last known up at 2025-04-27 09:51:11 GMT
+2025-04-27_09:57:22.48227 LOG:  database system was not properly shut down; automatic recovery in progress
+2025-04-27_09:57:22.48766 LOG:  redo starts at 0/8521618
+2025-04-27_09:57:22.48817 LOG:  invalid record length at 0/8521950: expected at least 24, got 0
+2025-04-27_09:57:22.48823 LOG:  redo done at 0/8521928 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-04-27_09:57:22.51035 LOG:  database system is ready to accept connections
+2025-04-27_09:57:24.80752 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_09:57:24.80765 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_09:57:24.80766 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_09:57:24.80766 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_09:57:24.80767 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_09:57:24.80767 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_09:57:24.80767 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_09:57:24.80768 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_09:57:24.80768 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"

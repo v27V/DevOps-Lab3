@@ -1,0 +1,14 @@
+2025-04-27_15:17:54.16866 ts=2025-04-27T15:17:54.168Z caller=main.go:86 level=warn msg="Error loading config" err="Error opening config file \"postgres_exporter.yml\": open postgres_exporter.yml: no such file or directory"
+2025-04-27_15:17:54.16881 ts=2025-04-27T15:17:54.168Z caller=proc.go:272 msg="Excluded databases" databases=[]
+2025-04-27_15:17:54.16882 ts=2025-04-27T15:17:54.168Z caller=main.go:99 level=warn msg="The extended queries.yaml config is DEPRECATED" file=/var/opt/gitlab/postgres-exporter/queries.yaml
+2025-04-27_15:17:54.16972 ts=2025-04-27T15:17:54.169Z caller=tls_config.go:274 level=info msg="Listening on" address=127.0.0.1:9187
+2025-04-27_15:17:54.16977 ts=2025-04-27T15:17:54.169Z caller=tls_config.go:277 level=info msg="TLS is disabled." http2=false address=127.0.0.1:9187
+2025-04-27_15:17:55.52820 ts=2025-04-27T15:17:55.527Z caller=server.go:74 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2025-04-27_15:17:55.53314 ts=2025-04-27T15:17:55.533Z caller=postgres_exporter.go:613 level=info msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=16.8.0
+2025-04-27_15:17:57.59186 ts=2025-04-27T15:17:57.591Z caller=main.go:86 level=warn msg="Error loading config" err="Error opening config file \"postgres_exporter.yml\": open postgres_exporter.yml: no such file or directory"
+2025-04-27_15:17:57.59215 ts=2025-04-27T15:17:57.591Z caller=proc.go:272 msg="Excluded databases" databases=[]
+2025-04-27_15:17:57.59228 ts=2025-04-27T15:17:57.591Z caller=main.go:99 level=warn msg="The extended queries.yaml config is DEPRECATED" file=/var/opt/gitlab/postgres-exporter/queries.yaml
+2025-04-27_15:17:57.59355 ts=2025-04-27T15:17:57.593Z caller=tls_config.go:274 level=info msg="Listening on" address=127.0.0.1:9187
+2025-04-27_15:17:57.59368 ts=2025-04-27T15:17:57.593Z caller=tls_config.go:277 level=info msg="TLS is disabled." http2=false address=127.0.0.1:9187
+2025-04-27_15:18:10.52787 ts=2025-04-27T15:18:10.527Z caller=server.go:74 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2025-04-27_15:18:10.53465 ts=2025-04-27T15:18:10.534Z caller=postgres_exporter.go:613 level=info msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=16.8.0

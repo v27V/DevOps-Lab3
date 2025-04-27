@@ -1,0 +1,19 @@
+2025-04-27_09:51:09.56254 LOG:  starting PostgreSQL 16.8 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-04-27_09:51:09.56544 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2025-04-27_09:51:09.57520 LOG:  database system was interrupted; last known up at 2025-04-27 09:42:43 GMT
+2025-04-27_09:51:09.70456 LOG:  database system was not properly shut down; automatic recovery in progress
+2025-04-27_09:51:09.71073 LOG:  redo starts at 0/14DF1F8
+2025-04-27_09:51:10.83512 LOG:  invalid record length at 0/85215A0: expected at least 24, got 0
+2025-04-27_09:51:10.83518 LOG:  redo done at 0/85212D0 system usage: CPU: user: 0.41 s, system: 0.49 s, elapsed: 0.92 s
+2025-04-27_09:51:11.23751 FATAL:  the database system is not accepting connections
+2025-04-27_09:51:11.23763 DETAIL:  Hot standby mode is disabled.
+2025-04-27_09:51:11.83771 LOG:  database system is ready to accept connections
+2025-04-27_09:51:16.27106 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_09:51:16.27114 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_09:51:16.27115 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_09:51:16.43036 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_09:51:16.43043 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_09:51:16.43044 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_09:51:16.52643 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_09:51:16.52647 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_09:51:16.52648 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"

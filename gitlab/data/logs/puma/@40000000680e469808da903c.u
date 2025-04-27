@@ -1,0 +1,10 @@
+2025-04-27_14:59:04.91484 {"timestamp":"2025-04-27T14:59:04.434Z","pid":483,"message":"Puma starting in cluster mode..."}
+2025-04-27_14:59:04.91491 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"* Puma version: 6.5.0 (\"Sky's Version\")"}
+2025-04-27_14:59:04.91492 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"* Ruby version: ruby 3.2.5 (2024-07-26 revision 31d0f1a2e7) [x86_64-linux]"}
+2025-04-27_14:59:04.91492 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"*  Min threads: 4"}
+2025-04-27_14:59:04.91492 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"*  Max threads: 4"}
+2025-04-27_14:59:04.91492 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"*  Environment: production"}
+2025-04-27_14:59:04.91492 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"*   Master PID: 483"}
+2025-04-27_14:59:04.91493 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"*      Workers: 6"}
+2025-04-27_14:59:04.91493 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"*     Restarts: (✔) hot (✖) phased"}
+2025-04-27_14:59:04.91493 {"timestamp":"2025-04-27T14:59:04.450Z","pid":483,"message":"* Preloading application"}

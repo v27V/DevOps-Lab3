@@ -1,0 +1,63 @@
+2025-04-27_14:43:12.30040 LOG:  starting PostgreSQL 16.8 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-04-27_14:43:12.30333 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2025-04-27_14:43:12.31381 LOG:  database system was interrupted; last known up at 2025-04-27 14:26:22 GMT
+2025-04-27_14:43:12.46431 LOG:  database system was not properly shut down; automatic recovery in progress
+2025-04-27_14:43:12.46954 LOG:  invalid record length at 0/8521A40: expected at least 24, got 0
+2025-04-27_14:43:12.46963 LOG:  redo is not required
+2025-04-27_14:43:12.49332 LOG:  database system is ready to accept connections
+2025-04-27_14:43:14.37839 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_14:43:14.37914 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_14:43:14.37919 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_14:43:14.50036 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_14:43:14.50041 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_14:43:14.50042 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_14:43:14.59128 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_14:43:14.59132 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_14:43:14.59133 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_14:44:57.83068 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_14:44:57.83075 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_14:44:57.83076 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_14:44:57.91447 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_14:44:57.91467 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_14:44:57.91478 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_14:44:57.99847 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-04-27_14:44:57.99872 FATAL:  Peer authentication failed for user "gitlab"
+2025-04-27_14:44:57.99873 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-04-27_14:45:16.25242 received TERM from runit, sending INT instead to force quit connections
+2025-04-27_14:45:16.26670 LOG:  received fast shutdown request
+2025-04-27_14:45:16.27165 LOG:  aborting any active transactions
+2025-04-27_14:45:16.27577 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.27588 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.27925 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.27933 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.27953 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.27963 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29225 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29230 LOG:  background worker "logical replication launcher" (PID 330) exited with exit code 1
+2025-04-27_14:45:16.29231 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29232 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29232 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29233 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29235 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29235 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29236 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29236 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29236 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29237 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29237 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29238 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29238 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29239 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29239 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29560 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29563 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29563 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29564 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29564 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29565 FATAL:  terminating connection due to administrator command
+2025-04-27_14:45:16.29858 LOG:  shutting down
+2025-04-27_14:45:16.35156 LOG:  database system is shut down
+2025-04-27_14:45:16.41590 LOG:  starting PostgreSQL 16.8 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-04-27_14:45:16.41758 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2025-04-27_14:45:16.42577 LOG:  database system was shut down at 2025-04-27 14:45:16 GMT
+2025-04-27_14:45:16.43246 LOG:  database system is ready to accept connections

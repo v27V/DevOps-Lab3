@@ -1,0 +1,57 @@
+2025-04-14 20:21:18.120215 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd
+2025-04-14 20:21:18.121214 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server
+2025-04-14 20:21:18.122223 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server\main.go
+2025-04-14 20:21:18.123215 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal
+2025-04-14 20:21:18.124219 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api
+2025-04-14 20:21:18.125214 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\handler.go
+2025-04-14 20:21:18.127213 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\routes.go
+2025-04-14 20:21:18.128221 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\static.go
+2025-04-14 20:21:18.129214 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models
+2025-04-14 20:21:18.130212 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models\product.go
+2025-04-14 20:21:18.131213 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage
+2025-04-14 20:21:18.131213 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage\database.go
+2025-04-14 20:21:18.133216 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static
+2025-04-14 20:21:18.134212 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static\index.html
+2025-04-14 20:21:18.135217 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\go.mod
+2025-04-14 20:21:18.136212 ║INFO	║ 2340	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2
+2025-04-14 20:21:23.013224 ║INFO	║ 2340	║ Finalize
+2025-04-14 20:21:23.014225 ║INFO	║ 2340	║ Finalize done
+2025-04-14 20:25:52.624128 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd
+2025-04-14 20:25:52.625130 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server
+2025-04-14 20:25:52.626126 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server\main.go
+2025-04-14 20:25:52.627127 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal
+2025-04-14 20:25:52.629124 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api
+2025-04-14 20:25:52.630124 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\handler.go
+2025-04-14 20:25:52.631166 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\routes.go
+2025-04-14 20:25:52.632126 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\static.go
+2025-04-14 20:25:52.633130 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models
+2025-04-14 20:25:52.634127 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models\product.go
+2025-04-14 20:25:52.634127 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage
+2025-04-14 20:25:52.635127 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage\database.go
+2025-04-14 20:25:52.635127 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static
+2025-04-14 20:25:52.636126 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static\index.html
+2025-04-14 20:25:52.637131 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\go.mod
+2025-04-14 20:25:52.638143 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\Результаты сканирования PT Application Inspector.png
+2025-04-14 20:25:52.639143 ║INFO	║ 3604	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2
+2025-04-14 20:25:59.008973 ║INFO	║ 3604	║ Finalize
+2025-04-14 20:25:59.009965 ║INFO	║ 3604	║ Finalize done
+2025-04-14 20:27:37.674757 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd
+2025-04-14 20:27:37.676771 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server
+2025-04-14 20:27:37.678789 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\cmd\server\main.go
+2025-04-14 20:27:37.680995 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal
+2025-04-14 20:27:37.680995 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api
+2025-04-14 20:27:37.683703 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\handler.go
+2025-04-14 20:27:37.684712 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\routes.go
+2025-04-14 20:27:37.686720 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\api\static.go
+2025-04-14 20:27:37.687727 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models
+2025-04-14 20:27:37.688723 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\models\product.go
+2025-04-14 20:27:37.689721 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage
+2025-04-14 20:27:37.690727 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\internal\storage\database.go
+2025-04-14 20:27:37.692395 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static
+2025-04-14 20:27:37.692395 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static\index.html
+2025-04-14 20:27:37.694406 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\go.mod
+2025-04-14 20:27:37.694406 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\package.json
+2025-04-14 20:27:37.694406 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2\Результаты сканирования PT Application Inspector.png
+2025-04-14 20:27:37.694406 ║INFO	║ 14448	║ process file c:\Users\Влад\Desktop\Пары\DevOps\Lab2
+2025-04-14 20:27:43.060287 ║INFO	║ 14448	║ Finalize
+2025-04-14 20:27:43.062329 ║INFO	║ 14448	║ Finalize done

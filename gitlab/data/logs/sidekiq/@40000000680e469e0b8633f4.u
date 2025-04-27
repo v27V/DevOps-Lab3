@@ -1,0 +1,3 @@
+{"severity":"INFO","time":"2025-04-27T14:59:10.247Z","message":"Starting cluster with 1 processes"}
+{"severity":"INFO","time":"2025-04-27T14:59:10.259Z","message":"Starting metrics server on port 8082"}
+2025-04-27T14:59:31.916Z pid=506 tid=p62 INFO: {:message=>"started", :memwd_handler_class=>"Gitlab::Memory::Watchdog::Handlers::SidekiqHandler", :memwd_sleep_time_s=>3, :pid=>506, :worker_id=>"sidekiq_0", :memwd_rss_bytes=>375697408}

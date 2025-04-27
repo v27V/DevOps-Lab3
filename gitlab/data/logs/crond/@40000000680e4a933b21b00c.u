@@ -1,0 +1,5 @@
+2025-04-27_15:16:01.81138 time=2025-04-27T15:16:01Z level=info msg=starting go-crond version 23.12.0 (4f2e74e; go1.23.6) 
+2025-04-27_15:16:01.81168 time=2025-04-27T15:16:01Z level=info msg={"ShowVersion":false,"ShowOnlyVersion":false,"ShowHelp":false,"Cron":{"DefaultUser":"root","IncludeCronD":["/var/opt/gitlab/crond"],"Auto":false,"RunParts":null,"RunParts1m":null,"RunParts15m":null,"RunPartsHourly":null,"RunPartsDaily":null,"RunPartsWeekly":null,"RunPartsMonthly":null,"AllowUnprivileged":false,"WorkDir":"/","EnableUserSwitching":false},"Log":{"Verbose":false,"Json":false},"Server":{"Bind":"","ReadTimeout":5000000000,"WriteTimeout":10000000000,"Metrics":false},"Args":{"Crontabs":null}}
+2025-04-27_15:16:01.81371 time=2025-04-27T15:16:01Z level=info msg=cronjob added command=/opt/gitlab/bin/gitlab-ctl renew-le-certs crontab=/var/opt/gitlab/crond/letsencrypt-renew shell=sh spec=50 0 */4 * * user=root
+2025-04-27_15:16:01.81484 time=2025-04-27T15:16:01Z level=info msg=start runner with 1 jobs
+2025-04-27_15:16:01.81494 

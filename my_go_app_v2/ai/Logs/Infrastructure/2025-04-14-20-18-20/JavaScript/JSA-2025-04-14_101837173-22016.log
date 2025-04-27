@@ -1,0 +1,4 @@
+2025-04-14T20:18:37.196+10:00 INFO [T:1] Platform: win, framework: .NETCoreApp,Version=v8.0
+2025-04-14T20:18:37.221+10:00 INFO [T:1] JSA version 1.0.2.0, started with command line: "C:\Users\Влад\AppData\Local\Application Inspector Analyzer\utils\JSA\JSA.dll" ecma srv --connection-type Pipe --pipe pipe-f35777bc-1dab-4758-8562-b568c3d97a8f-javascript --scan-target c:\Users\Влад\Desktop\Пары\DevOps\Lab2 --temp-dir c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Temp\82c87b6a724343158d59bbf3b6d9414a\JavaScript --logs-dir c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Logs\Infrastructure\2025-04-14-20-18-20\JavaScript
+2025-04-14T20:18:37.520+10:00 INFO [T:9] Selected language provider: JSA.JavaScriptProvider
+2025-04-14T20:18:38.007+10:00 ERROR [T:7] c:\Users\Влад\Desktop\Пары\DevOps\Lab2 has no c:\Users\Влад\Desktop\Пары\DevOps\Lab2\package.json to restore JS packages.

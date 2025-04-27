@@ -1,0 +1,6 @@
+# Logfile created on 2025-04-27 15:16:32 +0000 by logger.rb/v1.6.6
+[2025-04-27T15:16:32+00:00] INFO: Started Cinc Zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded (One version per cookbook)
+[2025-04-27T15:16:32+00:00] WARN: Cinc Client 33 is running, will wait for it to finish and then run.
+[2025-04-27T15:17:10+00:00] INFO: *** Cinc Client 18.3.0 ***
+[2025-04-27T15:17:10+00:00] INFO: Platform: x86_64-linux
+[2025-04-27T15:17:10+00:00] INFO: Cinc-client pid: 607

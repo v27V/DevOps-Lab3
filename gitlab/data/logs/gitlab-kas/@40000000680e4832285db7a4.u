@@ -1,0 +1,18 @@
+2025-04-27_15:05:50.82542 {"time":"2025-04-27T15:05:50.203888646Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v17.11.1/v17.11.1"}
+2025-04-27_15:05:50.82554 {"time":"2025-04-27T15:05:50.205869686Z","level":"INFO","msg":"Using own private API multi URL","url":"grpc:/localhost/|8155"}
+2025-04-27_15:05:50.82555 {"time":"2025-04-27T15:05:50.206592164Z","level":"INFO","msg":"AutoFlow module is not enabled in config","mod_name":"autoflow"}
+2025-04-27_15:05:50.82555 {"time":"2025-04-27T15:05:50.206605202Z","level":"INFO","msg":"AutoFlow module is not enabled in config, not starting codec server","mod_name":"autoflow_codec_server"}
+2025-04-27_15:05:50.82556 {"time":"2025-04-27T15:05:50.206717195Z","level":"INFO","msg":"Starting","mod_name":"kubernetes_api"}
+2025-04-27_15:05:50.82556 {"time":"2025-04-27T15:05:50.207154071Z","level":"INFO","msg":"Kubernetes API endpoint is up","mod_name":"kubernetes_api","net_network":"tcp","net_address":"127.0.0.1:8154"}
+2025-04-27_15:05:50.82557 {"time":"2025-04-27T15:05:50.207228471Z","level":"INFO","msg":"Starting","mod_name":"event_tracker"}
+2025-04-27_15:05:50.82557 {"time":"2025-04-27T15:05:50.207236592Z","level":"INFO","msg":"Starting","mod_name":"notifications"}
+2025-04-27_15:05:50.82558 {"time":"2025-04-27T15:05:50.207286994Z","level":"INFO","msg":"Starting","mod_name":"observability"}
+2025-04-27_15:05:50.82560 {"time":"2025-04-27T15:05:50.207419223Z","level":"INFO","msg":"Observability endpoint is up","mod_name":"observability","net_network":"tcp","net_address":"127.0.0.1:8151"}
+2025-04-27_15:05:50.82565 {"time":"2025-04-27T15:05:50.207544684Z","level":"INFO","msg":"Starting","mod_name":"usage_metrics"}
+2025-04-27_15:05:50.82566 {"time":"2025-04-27T15:05:50.207700526Z","level":"INFO","msg":"Agentk API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8150","is_websocket":true}
+2025-04-27_15:05:50.82566 {"time":"2025-04-27T15:05:50.207840412Z","level":"INFO","msg":"API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8153"}
+2025-04-27_15:05:50.82567 {"time":"2025-04-27T15:05:50.20797703Z","level":"INFO","msg":"Private API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8155"}
+2025-04-27_15:05:50.82567 {"time":"2025-04-27T15:05:50.208006309Z","level":"INFO","msg":"Starting","mod_name":"kas2agentk_tunnel"}
+2025-04-27_15:05:51.71696 {"time":"2025-04-27T15:05:51.716555001Z","level":"ERROR","msg":"Failed to get receptive agents","mod_name":"kas2agentk_tunnel","error":"Get \"https://localhost:1443/api/v4/internal/kubernetes/receptive_agents\": dial tcp [::1]:1443: connect: connection refused"}
+2025-04-27_15:06:11.39863 {"time":"2025-04-27T15:06:11.398549378Z","level":"ERROR","msg":"Failed to get receptive agents","mod_name":"kas2agentk_tunnel","error":"Get \"https://localhost:1443/api/v4/internal/kubernetes/receptive_agents\": dial tcp [::1]:1443: connect: connection refused"}
+2025-04-27_15:06:48.37198 {"time":"2025-04-27T15:06:48.371335622Z","level":"ERROR","msg":"Failed to get receptive agents","mod_name":"kas2agentk_tunnel","error":"Get \"https://localhost:1443/api/v4/internal/kubernetes/receptive_agents\": tls: failed to verify certificate: x509: certificate relies on legacy Common Name field, use SANs instead"}

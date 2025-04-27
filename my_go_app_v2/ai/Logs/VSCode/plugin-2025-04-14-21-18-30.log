@@ -1,0 +1,14 @@
+[4/14/2025, 9:18:30 PM] info: Logging was started to file.
+[4/14/2025, 9:18:30 PM] info: Start application inspector initialization
+[4/14/2025, 9:18:30 PM] info: Hide developer mode UI
+[4/14/2025, 9:18:30 PM] info: Infrastructure Configurations: {"port":8000,"infrastructureAssemblyFolderPath":"C:\\Users\\Влад\\AppData\\Local\\Application Inspector Analyzer","applicationResourcesFolderPath":"C:\\Users\\Влад\\AppData\\Local\\Application Inspector Analyzer","scanTargetFolderPath":"c:\\Users\\Влад\\Desktop\\Пары\\DevOps\\Lab2","isDebugging":false,"logLevel":{"i2_1":"Error","j2_1":5,"type":5,"key":"Settings.LogLevel.Error.Text"},"logDir":"c:\\Users\\Влад\\Desktop\\Пары\\DevOps\\Lab2\\.ai\\Logs\\Infrastructure\\2025-04-14-21-18-30","tipsFoundNotificationThreshold":1000,"similarIssuesFoundNotificationThreshold":1000,"applicationLocalDataFolderPath":"c:\\Users\\Влад\\Desktop\\Пары\\DevOps\\Lab2\\.ai"}
+[4/14/2025, 9:18:30 PM] info: Start infrastructure initialization
+[4/14/2025, 9:18:30 PM] info: Infrastructure was started
+[4/14/2025, 9:18:31 PM] info: Initialize aie integration isn't initialized
+[4/14/2025, 9:18:31 PM] info: Infrastructure was initialized
+[4/14/2025, 9:18:31 PM] info: Infrastructure Installer was deleted
+[4/14/2025, 9:18:32 PM] info: Clean up logs files was started
+[4/14/2025, 9:18:32 PM] info: Clean up logs files was finished
+[4/14/2025, 9:18:33 PM] info: Start rendering scan result. ScanResultId=8abf181d-1e89-4315-985d-734f7a7d52af, ProjectId=82c87b6a-7243-4315-8d59-bbf3b6d9414a
+[4/14/2025, 9:18:34 PM] info: Scan was finished with errors. Errors will be output to the output channel.
+[4/14/2025, 9:18:34 PM] info: Rendering scan result was finished

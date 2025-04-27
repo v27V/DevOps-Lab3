@@ -1,0 +1,12 @@
+2025-04-14T20:27:31.873+10:00 INFO [T:1] Platform: win, framework: .NETCoreApp,Version=v8.0
+2025-04-14T20:27:31.895+10:00 INFO [T:1] JSA version 1.0.2.0, started with command line: "C:\Users\Влад\AppData\Local\Application Inspector Analyzer\utils\JSA\JSA.dll" ecma srv --connection-type Pipe --pipe pipe-1fcb50e6-8eb8-45c1-a6ef-001fd808b569-javascript --scan-target c:\Users\Влад\Desktop\Пары\DevOps\Lab2 --temp-dir c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Temp\82c87b6a724343158d59bbf3b6d9414a\JavaScript --logs-dir c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Logs\Infrastructure\2025-04-14-20-18-20\JavaScript
+2025-04-14T20:27:32.143+10:00 INFO [T:9] Selected language provider: JSA.JavaScriptProvider
+2025-04-14T20:27:32.492+10:00 INFO [T:9] Starting packages restore task in c:\Users\Влад\Desktop\Пары\DevOps\Lab2
+2025-04-14T20:27:33.994+10:00 ERROR [T:9] npm ERR! code EJSONPARSE
+npm ERR! path c:\Users\Влад\Desktop\Пары\DevOps\Lab2/package.json
+npm ERR! JSON.parse Unexpected end of JSON input while parsing empty string
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in: c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Logs\Infrastructure\2025-04-14-20-18-20\JavaScript\npm_logs\2025-04-14T10_27_33_375Z-debug-0.log
+

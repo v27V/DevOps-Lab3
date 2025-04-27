@@ -1,0 +1,31 @@
+2025-04-27_09:42:26.03246 499:C 27 Apr 2025 09:42:26.032 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2025-04-27_09:42:26.03258 499:C 27 Apr 2025 09:42:26.032 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2025-04-27_09:42:26.03259 499:C 27 Apr 2025 09:42:26.032 * Redis version=7.2.7, bits=64, commit=ba181057, modified=0, pid=499, just started
+2025-04-27_09:42:26.03260 499:C 27 Apr 2025 09:42:26.032 * Configuration loaded
+2025-04-27_09:42:26.03282 499:M 27 Apr 2025 09:42:26.032 * monotonic clock: POSIX clock_gettime
+2025-04-27_09:42:26.03413 499:M 27 Apr 2025 09:42:26.034 # Failed to write PID file: Permission denied
+2025-04-27_09:42:26.03417                 _._                                                  
+2025-04-27_09:42:26.03417            _.-``__ ''-._                                             
+2025-04-27_09:42:26.03418       _.-``    `.  `_.  ''-._           Redis 7.2.7 (ba181057/0) 64 bit
+2025-04-27_09:42:26.03418   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2025-04-27_09:42:26.03418  (    '      ,       .-`  | `,    )     Running in standalone mode
+2025-04-27_09:42:26.03418  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2025-04-27_09:42:26.03418  |    `-._   `._    /     _.-'    |     PID: 499
+2025-04-27_09:42:26.03419   `-._    `-._  `-./  _.-'    _.-'                                   
+2025-04-27_09:42:26.03419  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2025-04-27_09:42:26.03419  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2025-04-27_09:42:26.03419   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2025-04-27_09:42:26.03419  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2025-04-27_09:42:26.03420  |    `-._`-._        _.-'_.-'    |                                  
+2025-04-27_09:42:26.03420   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2025-04-27_09:42:26.03420       `-._    `-.__.-'    _.-'                                       
+2025-04-27_09:42:26.03421           `-._        _.-'                                           
+2025-04-27_09:42:26.03421               `-.__.-'                                               
+2025-04-27_09:42:26.03422 
+2025-04-27_09:42:26.03459 499:M 27 Apr 2025 09:42:26.034 * Server initialized
+2025-04-27_09:42:26.03516 499:M 27 Apr 2025 09:42:26.035 * Ready to accept connections unix
+2025-04-27_09:47:27.08287 499:M 27 Apr 2025 09:47:27.082 * 10 changes in 300 seconds. Saving...
+2025-04-27_09:47:27.08513 499:M 27 Apr 2025 09:47:27.084 * Background saving started by pid 1490
+2025-04-27_09:47:27.11210 1490:C 27 Apr 2025 09:47:27.111 * DB saved on disk
+2025-04-27_09:47:27.11437 1490:C 27 Apr 2025 09:47:27.114 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2025-04-27_09:47:27.18702 499:M 27 Apr 2025 09:47:27.186 * Background saving terminated with success

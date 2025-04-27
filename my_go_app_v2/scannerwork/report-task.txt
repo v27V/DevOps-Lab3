@@ -1,0 +1,6 @@
+projectKey=Lab2
+serverUrl=http://127.0.0.1:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://127.0.0.1:9000/dashboard?id=Lab2
+ceTaskId=c456ac84-ad62-40fe-9dc1-e2fdf8b7db39
+ceTaskUrl=http://127.0.0.1:9000/api/ce/task?id=c456ac84-ad62-40fe-9dc1-e2fdf8b7db39

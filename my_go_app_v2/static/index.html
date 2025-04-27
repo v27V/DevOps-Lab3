@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог строительных товаров</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 120px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .response {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            border-radius: 5px 5px 0 0;
+        }
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            color: #333;
+        }
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        .tab button.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Каталог строительных товаров</h1>
+        
+        <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'GetProducts')">Получить товары</button>
+            <button class="tablinks" onclick="openTab(event, 'GetProduct')">Получить товар по ID</button>
+            <button class="tablinks" onclick="openTab(event, 'AddProduct')">Добавить товар</button>
+            <button class="tablinks" onclick="openTab(event, 'UpdateProduct')">Обновить товар</button>
+            <button class="tablinks" onclick="openTab(event, 'DeleteProduct')">Удалить товар</button>
+        </div>
+        
+        <div id="GetProducts" class="tabcontent" style="display: block;">
+            <h2>Получить список товаров</h2>
+            <div class="section">
+                <label for="db-select-get-all">Выберите базу данных:</label>
+                <select id="db-select-get-all">
+                    <option value="products_db">products_db</option>
+                    <option value="suppliers_db">suppliers_db</option>
+                    <option value="inventory_db">inventory_db</option>
+                </select>
+                
+                <button onclick="getAllProducts()">Получить все товары</button>
+                
+                <div id="products-response" class="response"></div>
+                
+                <table id="products-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Название</th>
+                            <th>Категория</th>
+                            <th>Цена</th>
+                            <th>В наличии</th>
+                            <th>Поставщик</th>
+                        </tr>
+                    </thead>
+                    <tbody id="products-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div id="GetProduct" class="tabcontent">
+            <h2>Получить товар по ID</h2>
+            <div class="section">
+                <label for="db-select-get">Выберите базу данных:</label>
+                <select id="db-select-get">
+                    <option value="products_db">products_db</option>
+                    <option value="suppliers_db">suppliers_db</option>
+                    <option value="inventory_db">inventory_db</option>
+                </select>
+                
+                <label for="product-id-get">ID товара:</label>
+                <input type="number" id="product-id-get" min="1" placeholder="Введите ID товара">
+                
+                <button onclick="getProductById()">Получить товар</button>
+                
+                <div id="get-product-response" class="response"></div>
+            </div>
+        </div>
+        
+        <div id="AddProduct" class="tabcontent">
+            <h2>Добавить новый товар</h2>
+            <div class="section">
+                <label for="db-select-add">Выберите базу данных:</label>
+                <select id="db-select-add">
+                    <option value="products_db">products_db</option>
+                    <option value="suppliers_db">suppliers_db</option>
+                    <option value="inventory_db">inventory_db</option>
+                </select>
+                
+                <label for="product-id-add">ID товара:</label>
+                <input type="number" id="product-id-add" min="1" placeholder="Введите ID товара">
+                
+                <label for="product-name">Название:</label>
+                <input type="text" id="product-name" placeholder="Название товара">
+                
+                <label for="product-category">Категория:</label>
+                <input type="text" id="product-category" placeholder="Категория товара">
+                
+                <label for="product-price">Цена:</label>
+                <input type="number" id="product-price" min="0" step="0.01" placeholder="Цена товара">
+                
+                <label for="product-description">Описание:</label>
+                <textarea id="product-description" placeholder="Описание товара"></textarea>
+                
+                <label for="product-in-stock">В наличии:</label>
+                <select id="product-in-stock">
+                    <option value="true">Да</option>
+                    <option value="false">Нет</option>
+                </select>
+                
+                <label for="product-supplier">Поставщик:</label>
+                <input type="text" id="product-supplier" placeholder="Поставщик">
+                
+                <button onclick="addProduct()">Добавить товар</button>
+                
+                <div id="add-product-response" class="response"></div>
+            </div>
+        </div>
+        
+        <div id="UpdateProduct" class="tabcontent">
+            <h2>Обновить товар</h2>
+            <div class="section">
+                <label for="db-select-update">Выберите базу данных:</label>
+                <select id="db-select-update">
+                    <option value="products_db">products_db</option>
+                    <option value="suppliers_db">suppliers_db</option>
+                    <option value="inventory_db">inventory_db</option>
+                </select>
+                
+                <label for="product-id-update">ID товара:</label>
+                <input type="number" id="product-id-update" min="1" placeholder="Введите ID товара">
+                
+                <button onclick="fetchProductToUpdate()">Загрузить данные</button>
+                
+                <div id="update-form" style="margin-top: 20px;">
+                    <label for="product-name-update">Название:</label>
+                    <input type="text" id="product-name-update" placeholder="Название товара">
+                    
+                    <label for="product-category-update">Категория:</label>
+                    <input type="text" id="product-category-update" placeholder="Категория товара">
+                    
+                    <label for="product-price-update">Цена:</label>
+                    <input type="number" id="product-price-update" min="0" step="0.01" placeholder="Цена товара">
+                    
+                    <label for="product-description-update">Описание:</label>
+                    <textarea id="product-description-update" placeholder="Описание товара"></textarea>
+                    
+                    <label for="product-in-stock-update">В наличии:</label>
+                    <select id="product-in-stock-update">
+                        <option value="true">Да</option>
+                        <option value="false">Нет</option>
+                    </select>
+                    
+                    <label for="product-supplier-update">Поставщик:</label>
+                    <input type="text" id="product-supplier-update" placeholder="Поставщик">
+                    
+                    <button onclick="updateProduct()">Обновить товар</button>
+                </div>
+                
+                <div id="update-product-response" class="response"></div>
+            </div>
+        </div>
+        
+        <div id="DeleteProduct" class="tabcontent">
+            <h2>Удалить товар</h2>
+            <div class="section">
+                <label for="db-select-delete">Выберите базу данных:</label>
+                <select id="db-select-delete">
+                    <option value="products_db">products_db</option>
+                    <option value="suppliers_db">suppliers_db</option>
+                    <option value="inventory_db">inventory_db</option>
+                </select>
+                
+                <label for="product-id-delete">ID товара:</label>
+                <input type="number" id="product-id-delete" min="1" placeholder="Введите ID товара">
+                
+                <button onclick="deleteProduct()">Удалить товар</button>
+                
+                <div id="delete-product-response" class="response"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Функция для открытия вкладок
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Функция для получения всех товаров
+        function getAllProducts() {
+            const dbName = document.getElementById('db-select-get-all').value;
+            const url = `/${dbName}/products`;
+            
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('products-response').textContent = JSON.stringify(data, null, 2);
+                    
+                    // Заполняем таблицу данными
+                    const tbody = document.getElementById('products-tbody');
+                    tbody.innerHTML = '';
+                    
+                    data.forEach(product => {
+                        const row = document.createElement('tr');
+                        
+                        row.innerHTML = `
+                            <td>${product.id}</td>
+                            <td>${product.name}</td>
+                            <td>${product.category}</td>
+                            <td>${product.price}</td>
+                            <td>${product.in_stock ? 'Да' : 'Нет'}</td>
+                            <td>${product.supplier}</td>
+                        `;
+                        
+                        tbody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    document.getElementById('products-response').textContent = `Ошибка: ${error.message}`;
+                });
+        }
+
+        // Функция для получения товара по ID
+        function getProductById() {
+            const dbName = document.getElementById('db-select-get').value;
+            const productId = document.getElementById('product-id-get').value;
+            
+            if (!productId) {
+                document.getElementById('get-product-response').textContent = 'Введите ID товара';
+                return;
+            }
+            
+            const url = `/${dbName}/products/${productId}`;
+            
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Ошибка HTTP: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('get-product-response').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('get-product-response').textContent = `Ошибка: ${error.message}`;
+                });
+        }
+
+        // Функция для добавления нового товара
+        function addProduct() {
+            const dbName = document.getElementById('db-select-add').value;
+            const url = `/${dbName}/products`;
+            
+            // Создаем объект товара из формы
+            const product = {
+                id: parseInt(document.getElementById('product-id-add').value),
+                name: document.getElementById('product-name').value,
+                category: document.getElementById('product-category').value,
+                price: parseFloat(document.getElementById('product-price').value),
+                description: document.getElementById('product-description').value,
+                in_stock: document.getElementById('product-in-stock').value === 'true',
+                supplier: document.getElementById('product-supplier').value
+            };
+            
+            // Проверка заполнения обязательных полей
+            if (!product.id || !product.name || !product.price) {
+                document.getElementById('add-product-response').textContent = 'Заполните обязательные поля: ID, Название, Цена';
+                return;
+            }
+            
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(product)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('add-product-response').textContent = JSON.stringify(data, null, 2);
+                    // Очищаем форму после успешного добавления
+                    if (data.status === 'success') {
+                        document.getElementById('product-id-add').value = '';
+                        document.getElementById('product-name').value = '';
+                        document.getElementById('product-category').value = '';
+                        document.getElementById('product-price').value = '';
+                        document.getElementById('product-description').value = '';
+                        document.getElementById('product-supplier').value = '';
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('add-product-response').textContent = `Ошибка: ${error.message}`;
+                });
+        }
+
+        // Функция для загрузки данных товара для обновления
+        function fetchProductToUpdate() {
+            const dbName = document.getElementById('db-select-update').value;
+            const productId = document.getElementById('product-id-update').value;
+            
+            if (!productId) {
+                document.getElementById('update-product-response').textContent = 'Введите ID товара';
+                return;
+            }
+            
+            const url = `/${dbName}/products/${productId}`;
+            
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Товар не найден (${response.status})`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Заполняем форму данными товара
+                    document.getElementById('product-name-update').value = data.name;
+                    document.getElementById('product-category-update').value = data.category;
+                    document.getElementById('product-price-update').value = data.price;
+                    document.getElementById('product-description-update').value = data.description;
+                    document.getElementById('product-in-stock-update').value = data.in_stock.toString();
+                    document.getElementById('product-supplier-update').value = data.supplier;
+                    
+                    document.getElementById('update-product-response').textContent = 'Данные товара загружены';
+                })
+                .catch(error => {
+                    document.getElementById('update-product-response').textContent = `Ошибка: ${error.message}`;
+                });
+        }
+
+        // Функция для обновления товара
+        function updateProduct() {
+            const dbName = document.getElementById('db-select-update').value;
+            const productId = document.getElementById('product-id-update').value;
+            
+            if (!productId) {
+                document.getElementById('update-product-response').textContent = 'Введите ID товара';
+                return;
+            }
+            
+            const url = `/${dbName}/products/${productId}`;
+            
+            // Создаем объект товара из формы
+            const product = {
+                id: parseInt(productId),
+                name: document.getElementById('product-name-update').value,
+                category: document.getElementById('product-category-update').value,
+                price: parseFloat(document.getElementById('product-price-update').value),
+                description: document.getElementById('product-description-update').value,
+                in_stock: document.getElementById('product-in-stock-update').value === 'true',
+                supplier: document.getElementById('product-supplier-update').value
+            };
+            
+            fetch(url, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(product)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('update-product-response').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('update-product-response').textContent = `Ошибка: ${error.message}`;
+                });
+        }
+
+        // Функция для удаления товара
+        function deleteProduct() {
+            const dbName = document.getElementById('db-select-delete').value;
+            const productId = document.getElementById('product-id-delete').value;
+            
+            if (!productId) {
+                document.getElementById('delete-product-response').textContent = 'Введите ID товара';
+                return;
+            }
+            
+            const url = `/${dbName}/products/${productId}`;
+            
+            fetch(url, {
+                method: 'DELETE'
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('delete-product-response').textContent = JSON.stringify(data, null, 2);
+                    // Очищаем поле ID после успешного удаления
+                    if (data.status === 'success') {
+                        document.getElementById('product-id-delete').value = '';
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('delete-product-response').textContent = `Ошибка: ${error.message}`;
+                });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{"build_time":"20250422.204325","level":"info","msg":"Starting","time":"2025-04-27T15:06:13Z","version":"v17.11.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-04-27T15:06:13Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-04-27T15:06:13Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-04-27T15:06:13Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-04-27T15:06:13Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-04-27T15:06:13Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:06:13Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:06:23Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:06:33Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:06:43Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-04-27T15:06:53Z","uri":""}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2025-04-27T15:07:02Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2025-04-27T15:07:02Z"}
+{"error":null,"level":"fatal","msg":"shutting down","time":"2025-04-27T15:07:02Z"}
+{"build_time":"20250422.204325","level":"info","msg":"Starting","time":"2025-04-27T15:07:02Z","version":"v17.11.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-04-27T15:07:02Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-04-27T15:07:02Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-04-27T15:07:02Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-04-27T15:07:02Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-04-27T15:07:02Z"}

@@ -1,0 +1,55 @@
+2025-04-14T20:18:37.190+10:00 INFO [T:1] Platform: win, framework: .NETCoreApp,Version=v8.0
+2025-04-14T20:18:37.220+10:00 INFO [T:1] JSA version 1.0.2.0, started with command line: "C:\Users\Влад\AppData\Local\Application Inspector Analyzer\utils\JSA\JSA.dll" go srv --connection-type Pipe --pipe pipe-4a3989f4-ccd0-495e-a702-1a59014e95f6-go --scan-target c:\Users\Влад\Desktop\Пары\DevOps\Lab2 --temp-dir c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Temp\82c87b6a724343158d59bbf3b6d9414a\Go --logs-dir c:\Users\Влад\Desktop\Пары\DevOps\Lab2\.ai\Logs\Infrastructure\2025-04-14-20-18-20\Go
+2025-04-14T20:18:37.827+10:00 INFO [T:9] Reading dependencies versions...
+2025-04-14T20:18:37.827+10:00 INFO [T:9] Selected language provider: JSA.GoProvider
+2025-04-14T20:18:38.792+10:00 INFO [T:10] Loading knowledge base
+2025-04-14T20:18:38.792+10:00 INFO [T:10] Loading custom knowledge base from folder C:\Users\Влад\AppData\Local\Application Inspector Analyzer\utils\JSA\Scripts.
+2025-04-14T20:18:38.792+10:00 WARN [T:10] Directory custom knowledge base C:\Users\Влад\AppData\Local\Application Inspector Analyzer\utils\JSA\Scripts not found.
+2025-04-14T20:18:38.792+10:00 INFO [T:10] Finished loading custom knowledge base.
+2025-04-14T20:18:38.792+10:00 WARN [T:10] Core knowledge base doesn't exist.
+2025-04-14T20:18:38.792+10:00 INFO [T:10] Custom knowledge base initialized.
+2025-04-14T20:18:38.833+10:00 INFO [T:7] File c:\Users\Влад\Desktop\Пары\DevOps\Lab2\static\index.html ignored.
+2025-04-14T20:18:38.833+10:00 INFO [T:10] File c:\Users\Влад\Desktop\Пары\DevOps\Lab2\go.mod ignored.
+2025-04-14T20:18:38.864+10:00 INFO [T:9] File internal\api\handler.go read (Elapsed: (Elapsed: 00:00.028)).
+2025-04-14T20:18:38.864+10:00 INFO [T:14] File internal\storage\database.go read (Elapsed: (Elapsed: 00:00.028)).
+2025-04-14T20:18:38.864+10:00 INFO [T:8] File internal\api\routes.go read (Elapsed: (Elapsed: 00:00.028)).
+2025-04-14T20:18:38.864+10:00 INFO [T:5] File cmd\server\main.go read (Elapsed: (Elapsed: 00:00.028)).
+2025-04-14T20:18:38.864+10:00 INFO [T:12] File internal\api\static.go read (Elapsed: (Elapsed: 00:00.028)).
+2025-04-14T20:18:38.864+10:00 INFO [T:13] File internal\models\product.go read (Elapsed: (Elapsed: 00:00.028)).
+2025-04-14T20:18:38.931+10:00 INFO [T:13] File internal\models\product.go tokenized (Elapsed: 00:00.024).
+2025-04-14T20:18:38.931+10:00 INFO [T:8] File internal\api\routes.go tokenized (Elapsed: 00:00.023).
+2025-04-14T20:18:38.931+10:00 INFO [T:5] File cmd\server\main.go tokenized (Elapsed: 00:00.025).
+2025-04-14T20:18:38.931+10:00 INFO [T:12] File internal\api\static.go tokenized (Elapsed: 00:00.025).
+2025-04-14T20:18:38.942+10:00 INFO [T:14] File internal\storage\database.go tokenized (Elapsed: 00:00.033).
+2025-04-14T20:18:38.942+10:00 INFO [T:9] File internal\api\handler.go tokenized (Elapsed: 00:00.034).
+2025-04-14T20:18:39.236+10:00 INFO [T:13] File internal\models\product.go parsed (Elapsed: 00:00.301).
+2025-04-14T20:18:39.343+10:00 INFO [T:8] File internal\api\routes.go parsed (Elapsed: 00:00.409).
+2025-04-14T20:18:39.369+10:00 INFO [T:13] File internal\models\product.go converted (Elapsed: 00:00.132).
+2025-04-14T20:18:39.369+10:00 INFO [T:5] File cmd\server\main.go parsed (Elapsed: 00:00.438).
+2025-04-14T20:18:39.382+10:00 INFO [T:5] File cmd\server\main.go converted (Elapsed: 00:00.009).
+2025-04-14T20:18:39.382+10:00 INFO [T:8] File internal\api\routes.go converted (Elapsed: 00:00.038).
+2025-04-14T20:18:39.663+10:00 INFO [T:12] File internal\api\static.go parsed (Elapsed: 00:00.729).
+2025-04-14T20:18:39.663+10:00 INFO [T:12] File internal\api\static.go converted (Elapsed: 00:00.002).
+2025-04-14T20:18:40.569+10:00 INFO [T:14] File internal\storage\database.go parsed (Elapsed: 00:01.626).
+2025-04-14T20:18:40.613+10:00 INFO [T:14] File internal\storage\database.go converted (Elapsed: 00:00.044).
+2025-04-14T20:18:40.969+10:00 INFO [T:9] File internal\api\handler.go parsed (Elapsed: 00:02.026).
+2025-04-14T20:18:40.977+10:00 INFO [T:9] File internal\api\handler.go converted (Elapsed: 00:00.007).
+2025-04-14T20:18:40.977+10:00 INFO [T:10] Discovered and converted 6 files.
+2025-04-14T20:21:18.491+10:00 INFO [T:20] Declaration collection started
+2025-04-14T20:21:18.491+10:00 INFO [T:20] Discovered 4 packages
+2025-04-14T20:21:18.491+10:00 INFO [T:20] Declaration collection finished
+2025-04-14T20:21:18.491+10:00 INFO [T:20] Initializing project types
+2025-04-14T20:21:18.548+10:00 INFO [T:20] Initializing cmd.server.main
+2025-04-14T20:21:18.548+10:00 INFO [T:20] cmd.server.main initialized
+2025-04-14T20:21:18.548+10:00 INFO [T:20] Initializing internal.api
+2025-04-14T20:21:18.548+10:00 INFO [T:20] internal.api initialized
+2025-04-14T20:21:18.548+10:00 INFO [T:20] Initializing internal.models
+2025-04-14T20:21:18.548+10:00 INFO [T:20] internal.models initialized
+2025-04-14T20:21:18.548+10:00 INFO [T:20] Initializing internal.storage
+2025-04-14T20:21:18.548+10:00 INFO [T:20] internal.storage initialized
+2025-04-14T20:21:18.548+10:00 INFO [T:20] Root entry points execution...
+2025-04-14T20:21:18.573+10:00 INFO [T:20] Root entry points executed.
+2025-04-14T20:21:18.573+10:00 INFO [T:20] Frameworks entry points execution...
+2025-04-14T20:21:18.619+10:00 INFO [T:20] Frameworks entry points executed.
+2025-04-14T20:21:18.765+10:00 INFO [T:18] Please implement this method for incremental scan support.
+2025-04-14T20:21:18.765+10:00 INFO [T:18] Scanning completed successfully.
