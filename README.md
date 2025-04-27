@@ -15,4 +15,4 @@
 
 
 В итоге реализовал 2 docker-compose файла: один для веб-приложения + 3 Бд + nginx в корне проекта; второй для GitLab в gitlab/docker-compose.yml.
-Также реализовал Dockerfile для упаковки веб-приложения, он находится в my_go_app/Dockerfile
+Также реализовал Dockerfile для упаковки веб-приложения, он находится в my_go_app_v2/Dockerfile
